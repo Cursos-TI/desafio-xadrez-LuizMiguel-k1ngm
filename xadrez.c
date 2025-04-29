@@ -3,8 +3,11 @@
 
 
 
+
 int main() {
-	int i;
+	int i, j, k;
+	
+	
 	//movimento da torre
 	printf("Movimento da torre: \n");
 	for(i= 1; i <=5; i++){
@@ -36,6 +39,22 @@ do{
 	i++;
 } while(i<=8);
 	
+	
+	
+//movimento do Cavalo
+
+
+printf("Movimento do cavalo\n");
+
+    for (int k = 1; k <= 2; k++) {
+	printf("Cima \n");
+        for (int j = 2; j == k; j++) {
+            printf("Direita\n");
+            j++;
+        }
+    }
+	
+
 	
 
 	
